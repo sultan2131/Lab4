@@ -9,7 +9,7 @@ int main()
 	for (int s = 0; s < n - 1; ++s)
 	{
 		int m = s;
-        int c
+        	int c
 		for (c = s + 1; c < n; ++c)
 		{
 			if (array[c] < array[m])
