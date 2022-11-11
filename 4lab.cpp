@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-	int array[5] = {123, 879, 27, 89, 42};
+	const n = 5;
+	int array[n] = {123, 879, 27, 89, 42};
  
 	for (int s = 0; s < n - 1; ++s)
 	{
