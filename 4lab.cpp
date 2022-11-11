@@ -6,20 +6,19 @@ int main()
 	const n = 5;
 	int array[n] = {123, 879, 27, 89, 42};
  
-	for (int s = 0; s < n - 1; ++s)
-	{
-		int m = s;
-        	int c
-		for (c = s + 1; c < n; ++c)
-		{
-			if (array[c] < array[m])
-				m = c;
+	for (int i = 0; i < n - 1; ++i){
+		int j = i;
+ 
+		for (int k = i + 1; k < n; ++k){
+			if (array[k] < array[j])
+				j = k;
 		}
-		swap(array[s], array[m]);
+ 
+		swap(array[i], array[j]);
 	}
  
-	for (int i = 0; i < n; ++i)
-		cout << array[i] << ' ';
+	for (int m = 0; m < n; ++m)
+		cout << array[m] << ' ';
  
 	return 0;
 }
