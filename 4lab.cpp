@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	const n = 5;
+	const int n = 5;
 	int array[n] = {123, 879, 27, 89, 42};
  
 	for (int i = 0; i < n - 1; ++i){
